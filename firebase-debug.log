@@ -1,0 +1,39 @@
+[debug] [2020-02-01T09:05:12.155Z] ----------------------------------------------------------------------
+[debug] [2020-02-01T09:05:12.157Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\willi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-01T09:05:12.157Z] CLI Version:   7.12.1
+[debug] [2020-02-01T09:05:12.157Z] Platform:      win32
+[debug] [2020-02-01T09:05:12.157Z] Node Version:  v10.16.3
+[debug] [2020-02-01T09:05:12.158Z] Time:          Sat Feb 01 2020 04:05:12 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-01T09:05:12.158Z] ----------------------------------------------------------------------
+[debug] [2020-02-01T09:05:12.158Z] 
+[debug] [2020-02-01T09:05:12.170Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-01T09:05:12.171Z] > authorizing via signed-in user
+[debug] [2020-02-01T09:05:12.171Z] [iam] checking project swampfuud2020 for permissions ["firebase.projects.get"]
+[debug] [2020-02-01T09:05:12.173Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/swampfuud2020:testIamPermissions  
+
+[debug] [2020-02-01T09:05:12.512Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-01T09:05:12.514Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/swampfuud2020  
+ 
+[debug] [2020-02-01T09:05:12.820Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\willi\OneDrive\Documents\GitHub\swamp-hacks-2020'...
+[info] 
+[debug] [2020-02-01T09:05:12.825Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/swampfuud2020/webApps/-/config  
+ 
+[debug] [2020-02-01T09:05:13.280Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\willi\OneDrive\Documents\GitHub\swamp-hacks-2020\functions" for Cloud Functions...
+[debug] [2020-02-01T09:05:15.403Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-01T09:05:15.403Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-01T09:05:15.403Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-01T09:05:15.403Z] [worker-~diagnostic~-7698e299-6063-433b-bd82-e6c3066337af]: Assigning socketPath: \\?\pipe\C:\Users\willi\OneDrive\Documents\GitHub\swamp-hacks-2020\functions\19776
+[debug] [2020-02-01T09:05:15.404Z] [worker-~diagnostic~-7698e299-6063-433b-bd82-e6c3066337af]: BUSY
+[debug] [2020-02-01T09:05:15.950Z] [runtime-status] [19776] Functions runtime initialized. {"cwd":"C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\swamp-hacks-2020\\functions","node_version":"10.16.3"}
+[debug] [2020-02-01T09:05:15.952Z] [runtime-status] [19776] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-01T09:05:15.957Z] [runtime-status] [19776] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\swamp-hacks-2020\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-01T09:05:15.960Z] [runtime-status] [19776] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\swamp-hacks-2020\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-01T09:05:15.961Z] [runtime-status] [19776] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\swamp-hacks-2020\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-01T09:05:16.023Z] [worker-~diagnostic~-7698e299-6063-433b-bd82-e6c3066337af]: IDLE
